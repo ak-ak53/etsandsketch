@@ -1,0 +1,17 @@
+#container{
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 640px;
+}
+#container > div{
+    display: flex;
+    height: calc(100%/4);
+    width: calc(100%/4);
+   
+    
+    border: 1px solid red; 
+
+    box-sizing: border-box;
+}
